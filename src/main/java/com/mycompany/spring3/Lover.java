@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.dao;
+package com.mycompany.spring3;
 
 /**
  *
@@ -16,15 +16,15 @@ import javax.persistence.Id;
 import lombok.Data;
 
 @Data
-@Entity //model dle MVC odpovídající entitě v db
-class lover {
+@Entity //model dle MVC odpovĂ­dajĂ­cĂ­ entitÄ› v db
+class Lover {
 
     private @Id @GeneratedValue Long id;
     private int age = 0;
     private String name = "";
     private int boobs = 5;
 
-    public lover(int age, String name, int boobs) throws Exception {
+    public Lover(int age, String name, int boobs) throws Exception {
 
         if (age < 15) {
             throw new Exception("You are pedofil!");
@@ -42,7 +42,7 @@ class lover {
 
     }
 
-    public lover() {
+    public Lover() {
     }
 
     @Override

@@ -1,3 +1,7 @@
+com\mycompany\spring3\LoverRepository.class
 com\mycompany\spring3\IndexController.class
+com\mycompany\spring3\LoversController.class
+com\mycompany\spring3\LoverService.class
 com\mycompany\spring3\spring3app.class
-com\mycompany\dao\lover.class
+com\mycompany\spring3\LoverServiceImpl.class
+com\mycompany\spring3\Lover.class
